@@ -1,0 +1,58 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DisplayData.aspx.cs" Inherits="DBTool_v4.DisplayData" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+  	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  	    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+  	    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="css/km.css"/>
+
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <title>Knowledge Management Prototyping & Demonstration Site</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+          <a class="navbar-brand" href="#">Lewis Brisbois Bisgaard & Smith LLP</a>
+        </nav>
+
+        <div class="container">
+          <div class="starter-template">
+            <h1>Knowledge Management</h1>
+		        <h2>Prototyping & Demonstration Site</h2>
+            <p class="lead"/>
+		        "The purpose of computing is insight, not numbers."<p/>
+		        <i>-Richard Wesley Hamming , American mathematician (1962)</i><p/>
+          </div>
+        </div>
+
+        <!-- **************** -->
+        <!--  Primary Panel   -->
+        <!-- **************** -->
+        <div class="container">
+ 		    <div class="row">
+			    <div class="col-sm-12">
+				    <div class="panel panel-default">
+					    <div class="panel-heading"><b><i>Personal Practice Summary</i></b></div>
+					    <div class="panel-body">
+						    <div>
+                  <form id="form2" runat="server">
+                      <div>
+                          <asp:ContentPlaceHolder ID="cph_main" runat="server"></asp:ContentPlaceHolder>
+                      </div>
+                  </form>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+    </body>
+</html>
